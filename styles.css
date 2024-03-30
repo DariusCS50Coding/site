@@ -1,73 +1,78 @@
 .linke {
-    position: fixed;
+    position: absolute;
     bottom: 2.5%;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    transform: translateX(50%);
     width: 40px;
-    height: 40px;
+    height: 40px;"
 }
-
 .div_title {
+    position: relative;
     display: flex;
     justify-content: center;
     height: 15vh;
 }
-
 .h1_title {
-    font-size: 4vw; /* Adjust font size based on viewport width */
+    font-size:60px;
     font-family: 'Cascadia Code', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.sec_index {
+.sec_index{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.sec_style_index {
+.sec_style_index{
     background-color: black;
     width: 90vw;
     height: 75vh;
 }
-
-.terminal_text,
-.terminal_text_up {
+.terminal_text {
     color: white;
     font-family: 'Cascadia Code', sans-serif;
     position: relative;
     left: 2.5%;
 }
-
+.terminal_text_up {
+    color: white;
+    font-family: 'Cascadia Code', sans-serif;
+    position: relative;
+    left: 2.5%;
+    top: 10%
+}
 .small_text {
     text-align: center;
     font-family: 'Cascadia Code', sans-serif;
 }
-
-.sec_about {
+.sec_about{
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 0%;
+    right: 0%;
 }
-
-.sec_style_about {
+.sec_style_about{
     background-color: black;
     width: 48vw;
     height: 13vh;
 }
-
 .linke_about {
     position: fixed;
     bottom: 2.3%;
     left: 1.4%;
     width: 60px;
-    height: 60px;
+    height: 60px;"
 }
-
-.portrait {
+.portrait{
+    position: absolute;
     width: 48vw;
     height: 100vh;
-    right: 0;
+    right: 0
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+}
+
